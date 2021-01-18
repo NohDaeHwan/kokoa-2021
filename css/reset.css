@@ -123,6 +123,10 @@ table {
   border-spacing: 0;
 }
 
-#login-form input:focus {
+.login-form_input:focus {
+  outline: none;
+}
+
+.login-form_btn:focus {
   outline: none;
 }
