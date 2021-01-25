@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat w/ NohDaeHwan - Kokoa Talk</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
@@ -37,7 +37,28 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img src="img/avatar.jpg" />
+        <div class="message-row_content">
+          <span class="message_author">JuHel</span>
+          <div class="message_info">
+            <span class="message_bubble">Hi!</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row-own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_bubble">Hi nice to meet you!</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script
       src="https://kit.fontawesome.com/84c60fd987.js"

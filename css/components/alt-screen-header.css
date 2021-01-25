@@ -4,6 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.alt-header_column {
+  width: 33%;
 }
 
 .alt-header_title {
@@ -15,6 +25,16 @@
   margin-right: auto;
 }
 
+.alt-header_column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header_column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-header_column span:last-child {
+  margin-left: 20px;
 }
