@@ -1,0 +1,33 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-row_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-row__icon:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.icon-row_icon i {
+  font-size: 35px;
+}
+
+.icon-row_icon span {
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.icon-row_icon :nth-child(3) {
+  margin-top: -0.1px;
+}
