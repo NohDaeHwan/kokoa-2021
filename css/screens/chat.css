@@ -162,16 +162,22 @@
   transition: all 0.3s ease-in-out;
 }
 
+.reply_column:first-child i {
+  position: absolute;
+  left: 1.4vh;
+  top: 2.5vh;
+}
+
 .reply_column:last-child > i,
 .reply_column:last-child button {
   position: absolute;
-  right: 0.2vh;
-  top: 0.5vh;
+  right: -1.2vh;
+  top: 0.7vh;
 }
 
 .reply_column:last-child > i {
-  right: 6vw;
-  top: 1.3vh;
+  right: 8vw;
+  top: 1.7vh;
 }
 
 .reply_column button {
@@ -206,10 +212,9 @@
 }
 
 .reply input:focus {
-  width: 92vw;
-  transform: translateX(-5%) translateY(-80px);
+  transform: translateX(-4vw) translateY(-80vh) scaleX(1.05);
 }
 
 .reply:focus-within {
-  transform: translateY(80px);
+  transform: translateY(80vh);
 }
