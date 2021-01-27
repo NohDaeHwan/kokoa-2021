@@ -8,11 +8,11 @@
 
 .more-suggestions {
   border-top: var(--main-border);
-  padding-top: 35px;
+  padding-top: 25px;
 }
 
 .more-suggestions_title {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-weight: 500;
   font-size: 20px;
 }
@@ -25,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .more-suggestions_icon-image {
