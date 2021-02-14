@@ -39,3 +39,52 @@
   font-weight: 500;
   color: var(--gray);
 }
+
+.more-suggestions {
+  margin-bottom: 100px;
+}
+
+.kakaopay__container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ddd8d0;
+}
+
+.kakaopay__btns span {
+  font-size: 16px;
+  padding: 0px 10px;
+  border-right: 1px solid black;
+}
+
+.kakaopay__btns span:last-child {
+  border: none;
+  margin-right: 10px;
+}
+
+.kakaopay__display {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f3ede4;
+  margin-left: 20px;
+  padding: 0px 15px;
+}
+
+.kakaopay__pay {
+  font-weight: 600;
+  padding: 0px 5px 9px 2px;
+}
+
+.kakaopay__cash {
+  padding: 0px 0px 2px 2px;
+}
+
+.kakaopay__btns {
+  display: flex;
+  align-items: center;
+}

@@ -37,6 +37,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 10px;
+  border-bottom: var(--main-border);
+  margin-bottom: 10px;
 }
 
 .open-post_title {
@@ -103,6 +106,10 @@
 
 .open-post_heart-count span {
   margin-left: 3px;
+}
+
+.open-post:last-child {
+  margin-bottom: 100px;
 }
 
 @keyframes heartBeat {

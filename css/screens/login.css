@@ -22,14 +22,14 @@
 }
 .login-form_input {
   border: none;
-  padding: 15px 0px;
+  padding: 15px 15px;
   font-size: 18px;
   margin-bottom: 25px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
 .login-form_btn {
-  background-color: var(--yellow);
+  background-color: #688c45;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -41,9 +41,13 @@
   color: rgba(0, 0, 0, 0.4);
 }
 .login-form_input:focus {
-  border-color: var(--yellow);
+  border-color: #688c45;
 }
 .login-form_a {
   text-align: center;
   font-size: 13px;
+}
+
+.login-color {
+  background-color: #97bf73;
 }

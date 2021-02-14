@@ -2,6 +2,10 @@
   margin-top: 100px;
 }
 
+.settings-list {
+  margin-bottom: 30px;
+}
+
 .settings_setting {
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);

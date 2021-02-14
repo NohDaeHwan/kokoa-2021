@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends - Kokoa Talk</title>
   </head>
-  <body>
+  <body class="friends-screen">
     <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
@@ -27,7 +27,9 @@
       <div class="screen-header_icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog"></i></span>
+        <span>
+          <a href="settings.html"><i class="fas fa-cog"></i></a>
+        </span>
       </div>
     </header>
 
@@ -40,11 +42,11 @@
       <div class="user-component">
         <div class="user-component_column">
           <img
-            src="img/avatar.jpg"
+            src="img/tube.png"
             class="user-component_avatar user-component_avatar--xl"
           />
           <div class="user-component_text">
-            <h4 class="user-component_title">NohDaeHwan</h4>
+            <h4 class="user-component_title">Tube</h4>
             <!-- <h6 class="user-component_subtitle">this text whatever</h6> -->
           </div>
         </div>
@@ -76,6 +78,78 @@
           </div>
         </div>
       </div>
+
+      <div class="friends-screen_channel">
+        <div class="friends-screen_channel-header">
+          <span>Friend 4</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="img/ryan.jpg"
+              class="user-component_avatar user-component_avatar--sm"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title--not-bold">
+                Ryan
+              </h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+      </div>
+
+      <div class="friends-screen_friend">
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="img/muzi.jpg"
+              class="user-component_avatar user-component_avatar--sm"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title--not-bold">
+                Muzi
+              </h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+      </div>
+
+      <div class="friends-screen_friend">
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="img/apeach.jpg"
+              class="user-component_avatar user-component_avatar--sm"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title--not-bold">
+                Apeach
+              </h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+      </div>
+
+      <div class="friends-screen_friend">
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="img/frodo.jpg"
+              class="user-component_avatar user-component_avatar--sm"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title--not-bold">
+                Frodo
+              </h4>
+            </div>
+          </div>
+          <div class="user-component_column"></div>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
@@ -87,7 +161,7 @@
         </li>
         <li class="nav_btn">
           <a class="nav_link" href="chats.html">
-            <span class="nav_notification badge">1</span>
+            <span class="nav_notification badge">3</span>
             <i class="far fa-comment fa-2x"></i>
           </a>
         </li>

@@ -13,16 +13,28 @@
 }
 
 .friends-screen_channel {
-  margin-top: 25px;
+  margin-top: 15px;
   border-top: var(--main-border);
   padding-top: 15px;
 }
 
 .friends-screen_channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
   color: var(--gray);
+}
+
+.friends-screen_channel-header span {
+  font-size: 15px;
+}
+
+.friends-screen_friend {
+  margin-top: 15px;
+}
+
+.friends-screen_friend:last-child {
+  margin-bottom: 100px;
 }
 
 @keyframes hideSplashScreen {
@@ -36,7 +48,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: #97bf73;
   position: absolute;
   height: 100vh;
   width: 100vw;

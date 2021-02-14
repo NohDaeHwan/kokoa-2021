@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -10,7 +11,7 @@
 
 .user-component_title {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .user-component_subtitle {
@@ -37,10 +38,6 @@
   border-radius: 25px;
 }
 
-.user-component_title--not-bold {
-  font-weight: 400;
-}
-
 .user-component_column:last-child {
   color: rgba(0, 0, 0, 0.4);
   display: flex;
@@ -51,4 +48,8 @@
 .user-component_time {
   display: block;
   margin-bottom: 10px;
+}
+
+.user-component_text i {
+  color: tomato;
 }
